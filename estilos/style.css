@@ -1,0 +1,70 @@
+.fondo{
+    background-color: aqua;
+    background-position: top;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+
+
+.carrusel-fotos img{
+    background-color: rgb(142, 142, 142);
+    height: 600px;
+    width: auto;
+}
+
+.seccion-1{
+    background-color: rgba(255, 255, 255, 0.416);
+    padding: 5%;
+    align-content: center;
+    text-align: center;
+    background-image: url(https://img.freepik.com/vector-gratis/papel-pintado-abstracto-blanco_23-2148830028.jpg?t=st=1732388908~exp=1732392508~hmac=e3b423b7499662468ae1fb3940355a3b80c9df5cad53a48197dc21f8585595de&w=1060);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+.seccion-1 p{
+    text-align: justify;
+}
+
+.body{
+    border-radius: 10%;
+    height: 450px;
+    width: 100%;
+}
+
+.otros-servicios h1{
+    padding: 5%;
+}
+
+.gallery{
+    background-color: #87c3ff;
+    
+}
+
+.zoom{
+    transition: width 1.1s, height 1.1s, transform 1.1s;
+    -moz-transition: width 1.1s, height 1.1s, -moz-transition 1.1s;
+    -webkit-transition: width 1.1s, height 1.1s, -webkit-transition 1.1s;
+    -o-transition: width 1.1s, height 1.1s, -o-transform 1.1s;
+    border: 1px solid #c0c0c0;
+    box-shadow: #c0c0c0 0px 5px 5px 0px;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform:scale(1.05);
+}
+
+.card-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0 .5em;
+}
+
